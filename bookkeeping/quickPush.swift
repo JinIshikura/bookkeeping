@@ -1,4 +1,5 @@
 import UIKit
+import AVFoundation
 
 class quickPush: UIViewController {
     @IBOutlet var questionLabel: UILabel!
@@ -9,6 +10,7 @@ class quickPush: UIViewController {
     @IBOutlet var sihon: UIButton!
     @IBOutlet var sonota: UIButton!
     @IBOutlet var score:UILabel!
+    var audioPlayer: AVAudioPlayer!
     var questionRandom:Int=0
     var answer:Int=0
     var push :Int=0
