@@ -14,6 +14,7 @@
 		3C6FBB682296D643002C4CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6FBB662296D643002C4CB8 /* LaunchScreen.storyboard */; };
 		3C6FBB732296D643002C4CB8 /* bookkeepingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBB722296D643002C4CB8 /* bookkeepingTests.swift */; };
 		3C6FBB7E2296D643002C4CB8 /* bookkeepingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBB7D2296D643002C4CB8 /* bookkeepingUITests.swift */; };
+		3CAD2E2322A90C06007CD7DB /* quickPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2E2222A90C06007CD7DB /* quickPush.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C6FBB792296D643002C4CB8 /* bookkeepingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookkeepingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6FBB7D2296D643002C4CB8 /* bookkeepingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookkeepingUITests.swift; sourceTree = "<group>"; };
 		3C6FBB7F2296D643002C4CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAD2E2222A90C06007CD7DB /* quickPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickPush.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3C6FBB5D2296D643002C4CB8 /* AppDelegate.swift */,
 				3C6FBB5F2296D643002C4CB8 /* ViewController.swift */,
+				3CAD2E2222A90C06007CD7DB /* quickPush.swift */,
 				3C6FBB612296D643002C4CB8 /* Main.storyboard */,
 				3C6FBB642296D643002C4CB8 /* Assets.xcassets */,
 				3C6FBB662296D643002C4CB8 /* LaunchScreen.storyboard */,
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "JiN!";
 				TargetAttributes = {
 					3C6FBB592296D643002C4CB8 = {
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6FBB602296D643002C4CB8 /* ViewController.swift in Sources */,
+				3CAD2E2322A90C06007CD7DB /* quickPush.swift in Sources */,
 				3C6FBB5E2296D643002C4CB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +333,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +341,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +392,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +400,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
