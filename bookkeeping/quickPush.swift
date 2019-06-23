@@ -102,7 +102,7 @@ class quickPush: UIViewController {
         }else if(answer == 4){
             a = syuekiUsesArray.count - 1
             questionRandom = Int.random(in: 0 ... a)
-            questionLabel.text = syuekiUsesArray[questionRandom]
+            questionLabel.text = shihonUses[0]
         }else{
             a = otherUsesArray.count - 1
             questionRandom = Int.random(in: 0 ... a)
@@ -111,14 +111,20 @@ class quickPush: UIViewController {
     }
     func scoreing(){
         if (answer == push){
+            let audioPath = URL(fileURLWithPath: Bundle.main.path(forResource:"正解",ofType:"mp3")!)
+            audioPlayer = try? AVAudioPlayer(contentsOf:audioPath)
+            audioPlayer.play()
             score.text = "正解"
         }else{
+            let audioPath = URL(fileURLWithPath: Bundle.main.path(forResource:"不正解",ofType:"mp3")!)
+            audioPlayer = try? AVAudioPlayer(contentsOf:audioPath)
+            audioPlayer.play()
             score.text = "不正解"
         }
         questionNumber += 1
         numberIndication.text = String(questionNumber + 1) + "問目"
         if questionNumber >= 3{
-            self.performSegue(withIdentifier: "goyousoAnswer", sender: nil)
+            performSegue(withIdentifier: "goyousoAnswer", sender: nil)
         }
         return
     }

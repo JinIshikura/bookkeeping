@@ -165,7 +165,7 @@
                         <outlet property="sihon" destination="nS0-mg-iIS" id="3B1-GK-x6d"/>
                         <outlet property="sonota" destination="BoO-gu-Ll9" id="TEp-FB-jSn"/>
                         <outlet property="syueki" destination="hA7-Jv-acv" id="2al-kw-1AC"/>
-                        <segue destination="piR-yc-yJd" kind="show" id="6le-ht-sPs"/>
+                        <segue destination="piR-yc-yJd" kind="presentation" identifier="goyousoAnswer" animates="NO" modalTransitionStyle="crossDissolve" id="6le-ht-sPs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mtr-fh-m3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
