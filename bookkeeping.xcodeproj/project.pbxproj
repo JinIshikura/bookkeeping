@@ -14,6 +14,7 @@
 		3C6FBB682296D643002C4CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6FBB662296D643002C4CB8 /* LaunchScreen.storyboard */; };
 		3C6FBB732296D643002C4CB8 /* bookkeepingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBB722296D643002C4CB8 /* bookkeepingTests.swift */; };
 		3C6FBB7E2296D643002C4CB8 /* bookkeepingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FBB7D2296D643002C4CB8 /* bookkeepingUITests.swift */; };
+		3C95A87B22C0AECE00DEAC77 /* shiwake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95A87A22C0AECE00DEAC77 /* shiwake.swift */; };
 		3CAD2E2322A90C06007CD7DB /* quickPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD2E2222A90C06007CD7DB /* quickPush.swift */; };
 		3CC31ACE22BF492800B53C7A /* 不正解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CC31ACC22BF492800B53C7A /* 不正解.mp3 */; };
 		3CC31ACF22BF492800B53C7A /* 正解.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CC31ACD22BF492800B53C7A /* 正解.mp3 */; };
@@ -51,6 +52,7 @@
 		3C6FBB792296D643002C4CB8 /* bookkeepingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookkeepingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6FBB7D2296D643002C4CB8 /* bookkeepingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookkeepingUITests.swift; sourceTree = "<group>"; };
 		3C6FBB7F2296D643002C4CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C95A87A22C0AECE00DEAC77 /* shiwake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shiwake.swift; sourceTree = "<group>"; };
 		3CAD2E2222A90C06007CD7DB /* quickPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickPush.swift; sourceTree = "<group>"; };
 		3CC31ACC22BF492800B53C7A /* 不正解.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不正解.mp3"; sourceTree = "<group>"; };
 		3CC31ACD22BF492800B53C7A /* 正解.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "正解.mp3"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		3C6FBB5C2296D643002C4CB8 /* bookkeeping */ = {
 			isa = PBXGroup;
 			children = (
+				3C95A87A22C0AECE00DEAC77 /* shiwake.swift */,
 				3CC31AD022BF4F4D00B53C7A /* goyousoAnswer.swift */,
 				3CC31ACB22BF48F200B53C7A /* New Group */,
 				3C6FBB5D2296D643002C4CB8 /* AppDelegate.swift */,
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C95A87B22C0AECE00DEAC77 /* shiwake.swift in Sources */,
 				3C6FBB602296D643002C4CB8 /* ViewController.swift in Sources */,
 				3CAD2E2322A90C06007CD7DB /* quickPush.swift in Sources */,
 				3C6FBB5E2296D643002C4CB8 /* AppDelegate.swift in Sources */,
